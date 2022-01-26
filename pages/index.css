@@ -393,7 +393,7 @@ template {
   margin-left: 166px;
 }
 .header__title {
-  margin: 60px 0 0 160px;
+  margin: 58px 0 0 160px;
   font-style: normal;
   font-weight: 400;
   font-size: 112px;
@@ -410,7 +410,6 @@ template {
   color: #ffffff;
 }
 .header input {
-  max-width: 348px;
   padding: 13px;
   font-size: 14px;
   line-height: 24px;
@@ -422,7 +421,7 @@ template {
   color: #FFFFFF;
   background: rgba(142, 142, 152, 0.2);
   cursor: pointer;
-  margin: 230px -5px 0 160px;
+  width: 350px;
   -webkit-box-shadow: 0 0;
           box-shadow: 0 0;
 }
@@ -441,9 +440,8 @@ template {
   text-align: center;
   letter-spacing: 0.375px;
   cursor: pointer;
-  margin: 1px 0;
   width: 221px;
-  height: 50px;
+  height: 51px;
 }
 .header__hint {
   font-style: normal;
@@ -451,7 +449,7 @@ template {
   font-size: 12px;
   line-height: 18px;
   color: #47474C;
-  margin-left: 170px;
+  margin-left: 171px;
 }
 @media (max-width: 901px) {
   .header .header {
@@ -507,7 +505,7 @@ template {
 @media (max-width: 901px) {
   input {
     width: 426px;
-    margin: 0;
+    margin: 470px 0 0 60px;
   }
 }
 @media (max-width: 565px) {
@@ -519,7 +517,19 @@ template {
 @media (max-width: 901px) {
   button {
     max-width: 221px;
-    margin: 0 0 0 -5px;
+  }
+}
+.repair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 230px 0 0 160px;
+}
+
+@media (max-width: 901px) {
+  .repair {
+    display: table;
+    margin: 0;
   }
 }
 .weopen {
@@ -960,10 +970,9 @@ main {
   line-height: 18px;
   text-align: right;
   color: #47474C;
-  margin: -18px -10px 0 0;
+  margin: -18px -5px 0 0;
 }
 .footer input {
-  max-width: 348px;
   padding: 13px;
   font-size: 14px;
   line-height: 24px;
@@ -975,6 +984,7 @@ main {
   color: #FFFFFF;
   background: rgba(142, 142, 152, 0.2);
   cursor: pointer;
+  width: 350px;
   margin: 230px -5px 0 10px;
 }
 .footer input:hover {
@@ -996,7 +1006,7 @@ main {
 
 @media (max-width: 901px) {
   .footer {
-    max-width: 87%;
+    width: 87%;
     margin-top: -31px;
   }
 }
@@ -1004,5 +1014,10 @@ main {
   .footer__copyright {
     margin: 58px 0 0 12px;
     text-align: left;
+  }
+}
+@media (max-width: 901px) {
+  .footer__hint {
+    margin-top: 18px;
   }
 }

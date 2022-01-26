@@ -1,0 +1,10 @@
+.repair {
+    display: flex;
+    margin: 230px 0 0 160px;
+}
+@media (max-width: 901px) {
+    .repair {
+        display: table;
+        margin: 0;
+    }
+}
