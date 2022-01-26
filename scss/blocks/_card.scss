@@ -1,0 +1,29 @@
+.card {
+  max-width: 260px;
+  height: 153px;
+  background-color: #1C1C1E;
+  @include border-radius; 
+  &__title-s {
+    font-size: 18px;
+    line-height: 18px;
+    color: #EAEAF0;
+    margin: 20px 0 0 20px;
+  }
+  &__subtitle-s {
+    max-width: 230px;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8E8E98;
+    margin: 39px 0 0 20px;
+  }
+}
+@media (max-width: 901px) {
+  .card {
+    max-width: 314px;
+  }
+}
+@media (max-width: 901px) {
+  .card__subtitle-s {
+    max-width: 275px;
+  }
+}

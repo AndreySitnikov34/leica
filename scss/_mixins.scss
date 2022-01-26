@@ -1,0 +1,38 @@
+@mixin text {
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #8E8E98;
+}
+@mixin reset-space {
+    margin: 0;
+    padding: 0;
+}
+@mixin border-radius {
+    border-radius: 10px;
+}
+@mixin input {
+    max-width: 348px;
+    padding: 13px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.375px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: rgba(142, 142, 152, 0.2);
+    cursor: pointer;
+}
+@mixin button {
+    color: white;
+    padding: 0;
+    font-size: 14px;
+    border: none;
+    background: #47474C;
+    border-radius: 0px 8px 8px 0px;
+    text-align: center;
+    letter-spacing: 0.375px;
+    cursor: pointer;
+}

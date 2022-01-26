@@ -1,0 +1,19 @@
+.writeus {
+    background: #47474C;
+    border-radius: 8px;
+    margin: 90px 0 0 160px;
+    padding: 10px;
+    width: 284px;
+    height: 30px;
+    left: 190px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.375px;
+    color: #FFFFFF;
+}
+@media (max-width: 901px) {
+    .writeus {
+        margin: 83px 0 0 60px;
+    }
+}
