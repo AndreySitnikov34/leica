@@ -23,11 +23,29 @@
     justify-content: center;
   }
 }
+@media (max-width: 525px) {
+  .content1 {
+    grid-template-columns: 300px;
+    grid-template-rows: 175px 85px;
+    margin: auto 0;
+    gap: 0px;
+    justify-content: center;
+  }
+}
 @media (max-width: 901px) {
   .content2 {
     margin: -13px 44px 0 60px;
     grid-template-rows: 377px;
     gap: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 525px) {
+  .content2 {
+    grid-template-columns: 300px;
+    grid-template-rows: 145px 230px;
+    margin: auto 0;
+    gap: 0px;
     justify-content: center;
   }
 }

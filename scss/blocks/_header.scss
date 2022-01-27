@@ -16,7 +16,7 @@
         margin-left: 166px;
         }
 &__title {
-    margin: 60px 0 0 160px;
+    margin: 58px 0 0 160px;
     font-style: normal;
     font-weight: 400;
     font-size: 112px;
@@ -34,8 +34,9 @@
 }
 input {
     @include input;
-    margin: 230px -5px 0 160px;
+    width: 350px;
     box-shadow: 0 0;
+    position:relative;
     &:hover {
         background: rgba(142, 142, 152, 0.3);
         outline: 0;
@@ -44,9 +45,11 @@ input {
 }
 button {
     @include button;
-    margin: 1px 0;
+    // position: absolute;
+    // right:0px;
+    // bottom:0px;
     width: 221px;
-    height: 50px;
+    height: 51px;
 }
 &__hint {
 font-style: normal;
@@ -54,7 +57,7 @@ font-weight: normal;
 font-size: 12px;
 line-height: 18px;
 color: #47474C;
-margin-left: 170px;
+margin-left: 171px;
  }
 
 @media (max-width: 901px) {
@@ -108,23 +111,48 @@ margin-left: 170px;
         margin: 10px 0 0 70px;
     }
 }
+@media (max-width: 525px) {
+    .header__hint {
+        margin-left: 22px;
+    }
+}
 @media (max-width: 901px) {
-    input {
+    .header input {
         width: 426px;
-        // margin: 470px 0 0 60px;
-        margin: 0;
+        margin: 470px 0 0 60px;
+    }
+}
+@media (max-width: 750px) {
+    .header input {
+        width: 200px;
+        margin: 470px 0 0 60px;
     }
 }
 @media (max-width: 565px) {
-    input {
+    .header input {
         width: 229px;
-        margin: 470px 0 0 20px;
+        margin: 260px 0 0 20px;
     }
 }
 @media (max-width: 901px) {
-    button {
+    .header button {
         max-width: 221px;
-        margin: 0 0 0 -5px;
     }
 }
+@media (max-width: 750px) {
+    .header button {
+        width: 200px;
+    }
+}
+@media (max-width: 565px) {
+    .header button {
+        width: 200px;
+        
+    }
+}
+@media (max-width: 520px) {
+    .header button {
+        width: 50px;
 
+    }
+}

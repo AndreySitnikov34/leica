@@ -32,10 +32,11 @@
         line-height: 18px;
         text-align: right;
         color: #47474C;
-        margin: -18px -10px 0 0;
+        margin: -18px -5px 0 0;
     }
     input {
         @include input;
+        width: 350px;
         margin: 230px -5px 0 10px;
         &:hover {
             background: rgba(142, 142, 152, 0.3);
@@ -50,13 +51,70 @@
     }
 @media (max-width: 901px) {
     .footer {
-        max-width: 87%;
-        margin-top: -31px;
+        width: 87%;
+        margin-top: -62px;
+    }
+}
+@media (max-width: 525px) {
+    .footer {
+        width: 87%;
+        margin: 160px 0 0 10px;
     }
 }
 @media (max-width: 901px) {
     .footer__copyright {
         margin: 58px 0 0 12px;
         text-align: left;
+    }
+}
+@media (max-width: 525px) {
+    .footer__copyright {
+        margin: 41px 0 0 10px;
+        text-align: left;
+    }
+}
+@media (max-width: 901px) {
+    .footer__hint {
+        margin-top: 18px;
+    }
+}
+@media (max-width: 525px) {
+    .footer__hint {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 525px) {
+    .footer__logo {
+        width: 87%;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 525px) {
+    .footer__wrapper {
+        display: block;
+        width: 290px;
+        margin-top: -48px;
+    }
+}
+@media (max-width: 750px) {
+    .footer input {
+        width: 210px;
+    }
+}
+@media (max-width: 525px) {
+    .footer input {
+        width: 230px;
+    }
+}
+@media (max-width: 750px) {
+    .footer button {
+        width: 200px;
+    }
+}
+@media (max-width: 525px) {
+    .footer button {
+        width: 50px;
     }
 }
