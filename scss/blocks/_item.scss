@@ -32,3 +32,36 @@
         max-width: 648px;
     }
 }
+@media (max-width: 525px) {
+    .item {
+        max-width: 278px;
+        max-height: 283px;
+    }
+}
+@media (max-width: 901px) {
+    .item__mark {
+        margin: 20px 0 0 20px;
+    }
+}
+@media (max-width: 525px) {
+    .item__title {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 10px 0 0 20px;
+    }
+}
+@media (max-width: 525px) {
+    .item__subtitle {
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 28px 0 0 20px;
+    }
+}
+@media (max-width: 525px) {
+    .item__price {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 100px 0 0 20px;
+    }
+}

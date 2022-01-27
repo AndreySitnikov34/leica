@@ -22,8 +22,21 @@
     max-width: 314px;
   }
 }
+@media (max-width: 525px) {
+  .card {
+    max-height: 151px;
+  }
+}
 @media (max-width: 901px) {
   .card__subtitle-s {
     max-width: 275px;
+  }
+}
+@media (max-width: 525px) {
+  .card__subtitle-s {
+    max-width: 241px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 36px 0 0 20px;
   }
 }

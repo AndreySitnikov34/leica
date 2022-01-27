@@ -34,7 +34,7 @@
 }
 input {
     @include input;
-    width: 350px;
+    // width: 350px;
     box-shadow: 0 0;
     &:hover {
         background: rgba(142, 142, 152, 0.3);
@@ -44,7 +44,7 @@ input {
 }
 button {
     @include button;
-    width: 221px;
+    // width: 221px;
     height: 51px;
 }
 &__hint {
@@ -107,6 +107,11 @@ margin-left: 171px;
         margin: 10px 0 0 70px;
     }
 }
+@media (max-width: 525px) {
+    .header__hint {
+        margin-left: 22px;
+    }
+}
 @media (max-width: 901px) {
     input {
         width: 426px;
@@ -116,13 +121,18 @@ margin-left: 171px;
 @media (max-width: 565px) {
     input {
         width: 229px;
-        margin: 470px 0 0 20px;
+        margin: 260px 0 0 20px;
     }
 }
 @media (max-width: 901px) {
     button {
         max-width: 221px;
-        // margin: 470px 0 0 76px;
+    }
+}
+@media (max-width: 565px) {
+    button {
+        width: 35px;
+        
     }
 }
 

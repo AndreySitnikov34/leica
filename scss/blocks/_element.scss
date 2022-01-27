@@ -27,3 +27,31 @@
         width: 414px;
     }
 }
+@media (max-width: 525px) {
+    .element1 {
+        width: 241px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 525px) {
+    .element2 {
+        width: 241px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+}
+@media (max-width: 525px) {
+    .element3 {
+        width: 241px;
+        margin-left: 22px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 525px) {
+    .element4 {
+        width: 241px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+}
