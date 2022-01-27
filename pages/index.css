@@ -421,8 +421,10 @@ template {
   color: #FFFFFF;
   background: rgba(142, 142, 152, 0.2);
   cursor: pointer;
+  width: 350px;
   -webkit-box-shadow: 0 0;
           box-shadow: 0 0;
+  position: relative;
 }
 .header input:hover {
   background: rgba(142, 142, 152, 0.3);
@@ -439,6 +441,7 @@ template {
   text-align: center;
   letter-spacing: 0.375px;
   cursor: pointer;
+  width: 221px;
   height: 51px;
 }
 .header__hint {
@@ -506,25 +509,41 @@ template {
   }
 }
 @media (max-width: 901px) {
-  input {
+  .header input {
     width: 426px;
     margin: 470px 0 0 60px;
   }
 }
+@media (max-width: 750px) {
+  .header input {
+    width: 200px;
+    margin: 470px 0 0 60px;
+  }
+}
 @media (max-width: 565px) {
-  input {
+  .header input {
     width: 229px;
     margin: 260px 0 0 20px;
   }
 }
 @media (max-width: 901px) {
-  button {
+  .header button {
     max-width: 221px;
   }
 }
+@media (max-width: 750px) {
+  .header button {
+    width: 200px;
+  }
+}
 @media (max-width: 565px) {
-  button {
-    width: 35px;
+  .header button {
+    width: 200px;
+  }
+}
+@media (max-width: 520px) {
+  .header button {
+    width: 50px;
   }
 }
 .repair {
@@ -792,7 +811,7 @@ main {
     width: 414px;
   }
 }
-@media (max-width: 525px) {
+@media (max-width: 625px) {
   .element1 {
     width: 241px;
     margin-left: 20px;
@@ -810,6 +829,13 @@ main {
     width: 241px;
     margin-left: 22px;
     margin-top: 5px;
+  }
+}
+@media (max-width: 625px) {
+  .element4 {
+    width: 241px;
+    margin-left: 22px;
+    margin-top: 3px;
   }
 }
 @media (max-width: 525px) {
@@ -972,7 +998,7 @@ main {
 @media (max-width: 901px) {
   .donate {
     margin: 40px 0 0 60px;
-    max-width: 90%;
+    max-width: 85%;
     font-size: 20px;
     line-height: 30px;
   }
@@ -1023,6 +1049,11 @@ main {
     max-width: 648px;
   }
 }
+@media (max-width: 635px) {
+  .item {
+    width: 87vw;
+  }
+}
 @media (max-width: 525px) {
   .item {
     max-width: 278px;
@@ -1031,7 +1062,12 @@ main {
 }
 @media (max-width: 901px) {
   .item__mark {
-    margin: 20px 0 0 20px;
+    margin: 36px 0 0 39px;
+  }
+}
+@media (max-width: 525px) {
+  .item__mark {
+    margin: 21px 0 0 20px;
   }
 }
 @media (max-width: 525px) {
@@ -1222,13 +1258,13 @@ main {
 @media (max-width: 901px) {
   .footer {
     width: 87%;
-    margin-top: -31px;
+    margin-top: -62px;
   }
 }
 @media (max-width: 525px) {
   .footer {
     width: 87%;
-    margin: 178px 0 0 10px;
+    margin: 160px 0 0 10px;
   }
 }
 @media (max-width: 901px) {
@@ -1268,9 +1304,19 @@ main {
     margin-top: -48px;
   }
 }
+@media (max-width: 750px) {
+  .footer input {
+    width: 210px;
+  }
+}
 @media (max-width: 525px) {
   .footer input {
     width: 230px;
+  }
+}
+@media (max-width: 750px) {
+  .footer button {
+    width: 200px;
   }
 }
 @media (max-width: 525px) {

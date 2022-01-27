@@ -27,7 +27,7 @@
         width: 414px;
     }
 }
-@media (max-width: 525px) {
+@media (max-width: 625px) {
     .element1 {
         width: 241px;
         margin-left: 20px;
@@ -47,7 +47,13 @@
         margin-top: 5px;
     }
 }
-
+@media (max-width: 625px) {
+    .element4 {
+        width: 241px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+}
 @media (max-width: 525px) {
     .element4 {
         width: 241px;

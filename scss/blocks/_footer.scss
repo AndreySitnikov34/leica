@@ -52,13 +52,13 @@
 @media (max-width: 901px) {
     .footer {
         width: 87%;
-        margin-top: -31px;
+        margin-top: -62px;
     }
 }
 @media (max-width: 525px) {
     .footer {
         width: 87%;
-        margin: 178px 0 0 10px;
+        margin: 160px 0 0 10px;
     }
 }
 @media (max-width: 901px) {
@@ -98,9 +98,19 @@
         margin-top: -48px;
     }
 }
+@media (max-width: 750px) {
+    .footer input {
+        width: 210px;
+    }
+}
 @media (max-width: 525px) {
     .footer input {
         width: 230px;
+    }
+}
+@media (max-width: 750px) {
+    .footer button {
+        width: 200px;
     }
 }
 @media (max-width: 525px) {

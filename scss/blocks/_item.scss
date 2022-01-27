@@ -32,6 +32,11 @@
         max-width: 648px;
     }
 }
+@media (max-width: 635px) {
+    .item {
+        width: 87vw;
+    }
+}
 @media (max-width: 525px) {
     .item {
         max-width: 278px;
@@ -40,7 +45,12 @@
 }
 @media (max-width: 901px) {
     .item__mark {
-        margin: 20px 0 0 20px;
+        margin: 36px 0 0 39px;
+    }
+}
+@media (max-width: 525px) {
+    .item__mark {
+        margin: 21px 0 0 20px;
     }
 }
 @media (max-width: 525px) {

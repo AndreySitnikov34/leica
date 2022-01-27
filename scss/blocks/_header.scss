@@ -34,8 +34,9 @@
 }
 input {
     @include input;
-    // width: 350px;
+    width: 350px;
     box-shadow: 0 0;
+    position:relative;
     &:hover {
         background: rgba(142, 142, 152, 0.3);
         outline: 0;
@@ -44,7 +45,10 @@ input {
 }
 button {
     @include button;
-    // width: 221px;
+    // position: absolute;
+    // right:0px;
+    // bottom:0px;
+    width: 221px;
     height: 51px;
 }
 &__hint {
@@ -113,26 +117,42 @@ margin-left: 171px;
     }
 }
 @media (max-width: 901px) {
-    input {
+    .header input {
         width: 426px;
         margin: 470px 0 0 60px;
     }
 }
+@media (max-width: 750px) {
+    .header input {
+        width: 200px;
+        margin: 470px 0 0 60px;
+    }
+}
 @media (max-width: 565px) {
-    input {
+    .header input {
         width: 229px;
         margin: 260px 0 0 20px;
     }
 }
 @media (max-width: 901px) {
-    button {
+    .header button {
         max-width: 221px;
     }
 }
+@media (max-width: 750px) {
+    .header button {
+        width: 200px;
+    }
+}
 @media (max-width: 565px) {
-    button {
-        width: 35px;
+    .header button {
+        width: 200px;
         
     }
 }
+@media (max-width: 520px) {
+    .header button {
+        width: 50px;
 
+    }
+}
