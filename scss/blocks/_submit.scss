@@ -7,25 +7,16 @@
     border: none;
     border-radius: 0px 8px 8px 0px;
     height: 37px;
+    &__label {
+        line-height: 24px;
+    }
 }
-
 .submit:hover {
     cursor: pointer;
 }
 
 @media screen and (max-width:525px) {
-    .submit {
-        width: 50px;
-        text-indent: 150%;
-        white-space: nowrap;
-        overflow: hidden;
-        // background-color: dark-grey;
-    }
-
-    .submit:before {
-        content: '✌️';
-        text-indent: -20px;
-        color: white;
-        float: right;
+    .submit__label {
+        display: none;
     }
 }

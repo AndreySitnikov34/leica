@@ -6,19 +6,19 @@
     flex-direction: column;
     justify-content: flex-start;
     &__logo {
-        font-style: normal;
-        font-weight: 400;
+        font-style: $FontStyle;
+        font-weight: $FontWeight;
         font-size: 22px;
         line-height: 30px;
         margin-top: 60px;
         background-size: contain;
-        color: white;
+        color: #ffffff;
         margin-left: 166px;
         }
 &__title {
     margin: 58px 0 0 160px;
-    font-style: normal;
-    font-weight: 400;
+    font-style: $FontStyle;
+    font-weight: $FontWeight;
     font-size: 112px;
     line-height: 112px;
     color: #ffffff;
@@ -26,8 +26,8 @@
 &__subtitle {
     margin: 20px 0 0 160px;
     padding: 0;
-    font-style: normal;
-    font-weight: 400;
+    font-style: $FontStyle;
+    font-weight: $FontWeight;
     font-size: 80px;
     line-height: 70px;
     color: #ffffff;
@@ -45,14 +45,11 @@ input {
 }
 button {
     @include button;
-    // position: absolute;
-    // right:0px;
-    // bottom:0px;
     width: 221px;
     height: 51px;
 }
 &__hint {
-font-style: normal;
+font-style: $FontStyle;
 font-weight: normal;
 font-size: 12px;
 line-height: 18px;

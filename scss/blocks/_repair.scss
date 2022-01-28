@@ -1,10 +1,24 @@
 .repair {
     display: flex;
     margin: 230px 0 0 160px;
+    &__inheader {
+        width: 350px;
+    }
 }
 @media (max-width: 901px) {
     .repair {
         display: table;
         margin: 0;
+    }
+}
+@media (max-width: 901px) {
+    .repair__inheader {
+        width: 426px;
+    }
+}
+
+@media (max-width: 425px) {
+    .repair__inheader {
+        width: 229px;
     }
 }
