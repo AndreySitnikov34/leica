@@ -611,70 +611,81 @@ main {
   /*Ширина в зависимости от разрешения экрана*/
 }
 
+.photo {
+  margin: 0 0 120px 0;
+  padding: 0;
+}
+
+@media (max-width: 555px) {
+  .photo {
+    margin: 0 0 10px 0;
+  }
+}
 .illustrations {
   max-width: 97%;
-  margin: 91px 0 0 30px;
+  margin: 107px 0 0 30px;
   padding: 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 20px 1fr;
   grid-template-columns: auto 1fr;
-  -ms-grid-rows: 261px;
-  grid-template-rows: 261px;
+  -ms-grid-rows: 233px;
+  grid-template-rows: 233px;
   gap: 0 20px;
 }
-
 .illustrations > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-
 .illustrations > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-}
-.illustrations__row-two {
-  max-width: 97%;
-  margin: -10px 0 105px 30px;
-  padding: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 20px auto;
-  grid-template-columns: 1fr auto;
-  -ms-grid-rows: 582px;
-  grid-template-rows: 582px;
-  gap: 0 20px;
-}
-.illustrations__row-two > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-.illustrations__row-two > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
 .illustrations__img-one {
   padding: 0;
-  margin: 16px 0 0 0;
+  margin: 0;
 }
 .illustrations__img-two {
   background-color: #FFD233;
   border-radius: 10px;
-}
-.illustrations__img-three {
-  background-color: #25E197;
-  border-radius: 10px;
-}
-.illustrations__img-four {
-  padding: 0;
-  margin: 0;
 }
 .illustrations__photo-one {
   width: 448px;
   background-size: cover;
   border-radius: 10px;
 }
-.illustrations__photo-four {
+
+.illustrations-row-two {
+  max-width: 97%;
+  margin: 20px 0 120px 30px;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px auto;
+  grid-template-columns: 1fr auto;
+  -ms-grid-rows: 550px;
+  grid-template-rows: 550px;
+  gap: 0 20px;
+}
+
+.illustrations-row-two > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.illustrations-row-two > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.illustrations-row-two__img-three {
+  background-color: #25E197;
+  border-radius: 10px;
+}
+.illustrations-row-two__img-four {
+  padding: 0;
+  margin: -18px 0 0 0;
+}
+.illustrations-row-two__photo-four {
   width: 730px;
   height: auto;
   margin: 16px 0;
@@ -683,7 +694,7 @@ main {
 
 @media (max-width: 901px) {
   .illustrations {
-    margin: 36px 44px 0 60px;
+    margin: 50px 44px 0 60px;
     gap: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -694,9 +705,9 @@ main {
   .illustrations {
     -ms-grid-columns: 280px;
     grid-template-columns: 280px;
-    -ms-grid-rows: 180px 0px 67px;
-    grid-template-rows: 180px 67px;
-    margin: 20px 5px 0 20px;
+    -ms-grid-rows: 162px 0px 67px;
+    grid-template-rows: 162px 67px;
+    margin: 38px 5px 0 20px;
     gap: 0px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -712,10 +723,10 @@ main {
   }
 }
 @media (max-width: 901px) {
-  .illustrations__row-two {
-    margin: -13px 44px 0 60px;
-    -ms-grid-rows: 377px;
-    grid-template-rows: 377px;
+  .illustrations-row-two {
+    margin: 20px 44px 0 60px;
+    -ms-grid-rows: 341px;
+    grid-template-rows: 341px;
     gap: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -723,33 +734,33 @@ main {
   }
 }
 @media (max-width: 555px) {
-  .illustrations__row-two {
+  .illustrations-row-two {
     -ms-grid-columns: 280px;
     grid-template-columns: 280px;
-    -ms-grid-rows: 155px 0px 211px;
-    grid-template-rows: 155px 211px;
-    margin: 5px 0 65px 20px;
-    gap: 0px;
+    -ms-grid-rows: 124px 36px 211px;
+    grid-template-rows: 124px 211px;
+    margin: 20px 0 45px 20px;
+    gap: 36px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .illustrations__row-two > *:nth-child(1) {
+  .illustrations-row-two > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
-  .illustrations__row-two > *:nth-child(2) {
+  .illustrations-row-two > *:nth-child(2) {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
 }
 @media (max-width: 901px) {
-  .illustrations__photo-four {
+  .illustrations-row-two__photo-four {
     width: 455px;
   }
 }
 @media (max-width: 555px) {
-  .illustrations__photo-four {
+  .illustrations-row-two__photo-four {
     width: 280px;
     margin-top: 3px;
   }
@@ -792,7 +803,7 @@ main {
 @media (max-width: 645px) {
   .info {
     width: 85%;
-    margin: 20px 0 0 20px;
+    margin: 19px 0 0 20px;
     font-size: 12px;
     line-height: 18px;
   }
