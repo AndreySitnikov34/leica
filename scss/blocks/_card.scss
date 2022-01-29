@@ -3,6 +3,9 @@
   height: 153px;
   background-color: #1C1C1E;
   @include border-radius; 
+  &:hover {
+     @include hover;
+   }
   &__title-s {
     font-size: 18px;
     line-height: 18px;
