@@ -39,7 +39,6 @@
 }
 @media (max-width: 525px) {
     .item {
-        max-width: 278px;
         max-height: 283px;
     }
 }
@@ -62,7 +61,7 @@
 }
 @media (max-width: 525px) {
     .item__subtitle {
-        width: 100%;
+        width: 86%;
         font-size: 12px;
         line-height: 18px;
         margin: 28px 0 0 20px;
