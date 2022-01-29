@@ -35,3 +35,7 @@ color: #8E8E98;
     letter-spacing: 0.375px;
     cursor: pointer;
 }
+@mixin hover {
+    cursor: pointer;
+    background: #232327;
+}

@@ -22,7 +22,7 @@
     font-size: 112px;
     line-height: 112px;
     color: #ffffff;
-    &_typography {
+    &-typography {
         display: block;
         margin: 20px 0 0 0px;
         padding: 0;
@@ -89,14 +89,14 @@ button {
     }
 }
 @media (max-width: 901px) {
-    .header__title_typography {
+    .header__title-typography {
         font-size: 50px;
         line-height: 60px;
         margin: 0;
     }
 }
 @media (max-width: 565px) {
-    .header__title_typography {
+    .header__title-typography {
         font-size: 30px;
         line-height: 38px;
         margin: 10px 0 0 0;
