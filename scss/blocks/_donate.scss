@@ -1,19 +1,18 @@
 .donate {
     margin: 50px 0 0 160px;
     padding: 0;
-    max-width: 80%;
+    max-width: 86%;
     @include text;
 
 }
 @media (max-width: 901px) {
     .donate {
         margin: 40px 0 0 60px;
-        max-width: 85%;
         font-size: 20px;
         line-height: 30px;
     }
 }
-@media (max-width: 525px) {
+@media (max-width: 645px) {
     .donate {
         margin: 30px 0 0 20px;
         font-size: 12px;
